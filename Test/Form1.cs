@@ -23,7 +23,7 @@ namespace Test
 
             if (!retorno)
             {
-                MessageBox.Show("Senha incorreta!,  Tente Novamente");
+                MessageBox.Show("Senha incorreta!  \nTente Novamente");
             }
             if (retorno)
             {
