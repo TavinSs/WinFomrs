@@ -216,7 +216,6 @@
             textBox9.Size = new Size(266, 20);
             textBox9.TabIndex = 10;
             textBox9.Text = "SENHA";
-            textBox9.TextChanged += textBox9_TextChanged;
             textBox9.Enter += textBox9_Enter;
             textBox9.Leave += textBox9_Leave;
             // 
@@ -331,7 +330,6 @@
             Name = "TelaCadastro";
             Opacity = 0.97D;
             Text = "TelaCadastro";
-            Load += TelaCadastro_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

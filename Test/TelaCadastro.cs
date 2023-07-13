@@ -21,10 +21,6 @@ namespace Test
 
         }
 
-        private void textBox9_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void textBox1_Enter(object sender, EventArgs e)
         {
@@ -274,11 +270,6 @@ namespace Test
             MessageBox.Show("Usuario cadastrado com Sucesso");
 
             db.Desconectar();
-
-        }
-
-        private void TelaCadastro_Load(object sender, EventArgs e)
-        {
 
         }
 
